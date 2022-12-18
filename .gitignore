@@ -1,2 +1,4 @@
 #ignore dev dependecies
 node_modules
+package-lock.json
+package.json
