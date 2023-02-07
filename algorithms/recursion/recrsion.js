@@ -29,6 +29,7 @@ const factorial = function (num) {
 // when we create a function/ method and inside it we create another one,
 //which is recursive and helps the outer one attain its purpose
 //
+//
 
 const collectOddValues1 = function (arr) {
   let oddValsArr = [];
