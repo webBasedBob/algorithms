@@ -1,6 +1,6 @@
-const bubbleSort = require("./bubble-sort");
-
-test("bubble sort nums array", () => {
+import { bubbleSort } from "./bubble-sort";
+import { it, expect, describe } from "vitest";
+it("bubble sort nums array", () => {
   expect(
     bubbleSort([321321, 3, 213, 21, 3, 1, 432, 5, 436, 546, 54, 2])
   ).toStrictEqual(

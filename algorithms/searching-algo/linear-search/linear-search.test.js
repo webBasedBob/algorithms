@@ -1,6 +1,6 @@
-const linearSearch = require("./linear-search");
-
-test("search for ion in [ana, ion, alin] and return 1", () => {
+import { linearSearch } from "./linear-search";
+import { it, expect, describe } from "vitest";
+it("search for ion in [ana, ion, alin] and return 1", () => {
   let arrTest1 = ["ana", "ion", "alin"];
   const test1 = linearSearch(arrTest1, "ion");
   expect(test1).toBe(1);

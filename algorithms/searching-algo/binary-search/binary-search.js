@@ -1,6 +1,6 @@
 //binary search  - only on sorted arrays
 
-const binarySearch = function (sortedArr, val) {
+export const binarySearch = function (sortedArr, val) {
   if (sortedArr.length === 1) {
     if (sortedArr[0] === val) return 0;
     return -1;
@@ -25,5 +25,3 @@ const binarySearch = function (sortedArr, val) {
   }
   return -1;
 };
-
-module.exports = binarySearch;

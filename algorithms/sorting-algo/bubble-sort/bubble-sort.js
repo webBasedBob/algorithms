@@ -2,7 +2,7 @@
 // not the most efficient in most cases, but excels in some specific cases
 //the specific case where it is quite good is when we have a already sorted array or a nearly sorted array
 
-const bubbleSort = function (arr) {
+export const bubbleSort = function (arr) {
   let noSwaps;
   for (let outer = arr.length - 1; outer >= 0; outer--) {
     noSwaps = true;
@@ -16,5 +16,3 @@ const bubbleSort = function (arr) {
   }
   return arr;
 };
-
-module.exports = bubbleSort;

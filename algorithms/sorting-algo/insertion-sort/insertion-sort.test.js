@@ -1,6 +1,6 @@
-const insertionSort = require("./insertion-sort");
-
-test("selection sort nums array", () => {
+import { insertionSort } from "./insertion-sort";
+import { it, expect, describe } from "vitest";
+it("selection sort nums array", () => {
   expect(
     insertionSort([321321, 3, 213, 21, 3, 1, 432, 5, 436, 546, 54, 2])
   ).toStrictEqual(

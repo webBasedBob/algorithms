@@ -1,6 +1,6 @@
-const selectionSort = require("./selection-sort");
-
-test("selection sort nums array", () => {
+import { selectionSort } from "./selection-sort";
+import { it, expect, describe } from "vitest";
+it("selection sort nums array", () => {
   expect(
     selectionSort([321321, 3, 213, 21, 3, 1, 432, 5, 436, 546, 54, 2])
   ).toStrictEqual(

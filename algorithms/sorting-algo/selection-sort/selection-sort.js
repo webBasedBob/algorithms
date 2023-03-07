@@ -5,7 +5,7 @@
 //
 //
 
-const selectionSort = function (arr) {
+export const selectionSort = function (arr) {
   let left = 0;
   while (left < arr.length) {
     let min = Infinity;
@@ -21,5 +21,3 @@ const selectionSort = function (arr) {
   }
   return arr;
 };
-
-module.exports = selectionSort;
