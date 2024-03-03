@@ -1,4 +1,4 @@
-import { binarySearch } from "./binary-search";
+import { binarySearch , binarySearchString} from "./binary-search";
 import { it, expect, describe } from "vitest";
 
 describe("binarySearch()", () => {
